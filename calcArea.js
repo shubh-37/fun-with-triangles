@@ -13,7 +13,7 @@ function calcArea(){
             var area = 1/2*(base*height);
         
             //rendering the output
-            output.innerText = "The area of the triangle is " + area;
+            output.innerText = "The area of the triangle is " + area.toFixed(2);
         }else{
             output.innerText = "please enter positive values to proceed!"
         }    
