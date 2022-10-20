@@ -91,3 +91,7 @@ label{
     font-weight: bold;
     padding: 1rem;
 }
+
+.link{
+    text-decoration: none;
+}
