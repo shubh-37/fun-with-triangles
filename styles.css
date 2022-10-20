@@ -48,6 +48,7 @@ body{
 
 .footer .list-non-bullet {
     text-align: center;
+    padding-inline-start: 0.7rem;
 }
 
 .list-item-inline{
@@ -83,6 +84,7 @@ label{
     background-color: var(--background-color);
     border-radius: 0rem 1rem 0rem 1rem;
     border: 1px solid var(--text-color);
+    text-align: center;
 }
 
 .footer-heading{
