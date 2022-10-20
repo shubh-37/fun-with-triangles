@@ -8,11 +8,15 @@ function calcArea(){
     var height = inputSide[1].value;
     //input validators
     if(base&&height){
-        //processing the inputs
-        var area = 1/2*(base*height);
+        if(base > 0 && height > 0){
+            //processing the inputs
+            var area = 1/2*(base*height);
         
-        //rendering the output
-        output.innerText = "The area of the triangle is " + area;
+            //rendering the output
+            output.innerText = "The area of the triangle is " + area;
+        }else{
+            output.innerText = "please enter positive values to proceed!"
+        }    
     }else{
         //error handler
         output.innerText = "please enter both the inputs to proceed!!"
