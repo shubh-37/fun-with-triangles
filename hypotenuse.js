@@ -17,7 +17,7 @@ function calcHypotenuse(){
         var hypotenuse = Math.sqrt(sumOfSquare);
 
         //rendering the output
-        output.innerText = "The hypotenuse is " + hypotenuse;    
+        output.innerText = "The hypotenuse is " + hypotenuse.toFixed(2);    
         }else{
             output.innerText = "Please enter positive values to proceed!"
         }
